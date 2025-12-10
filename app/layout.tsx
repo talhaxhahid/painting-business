@@ -7,9 +7,9 @@ import "./globals.css"
 const _inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Joe's Painting | Professional Interior & Exterior Painting Services",
+  title: "Diaz's Painting | Professional Interior & Exterior Painting Services",
   description:
-    "Transform your home or business with Joe's Painting. Expert interior and exterior painting services for domestic and commercial properties. Quality craftsmanship guaranteed.",
+    "Transform your home or business with Diaz's Painting. Expert interior and exterior painting services for domestic and commercial properties. Quality craftsmanship guaranteed.",
     generator: 'v0.app'
 }
 
