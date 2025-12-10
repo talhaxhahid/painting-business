@@ -28,11 +28,10 @@ export function Contact() {
     }
 
     try {
-      const response = await fetch("https://www.saveform.io/api/submit/83019326-119d-42af-91bd-f0bb134660ac", {
+      const response = await fetch("/api/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization: "Bearer sf_live_7f0d6bfe4734da38007b7a29c5c4f123ae4173cd3a00a881",
         },
         body: JSON.stringify(data),
       })
