@@ -4,7 +4,7 @@ import { Award, Clock, Users, Shield } from "lucide-react"
 import { useScrollAnimation } from "@/components/use-scroll-animation"
 
 const stats = [
-  { icon: Clock, value: "11+", label: "Years Experience" },
+  { icon: Clock, value: "2+", label: "Years Experience" },
   { icon: Users, value: "500+", label: "Happy Customers" },
   { icon: Award, value: "100%", label: "Satisfaction Rate" },
   { icon: Shield, value: "5 Year", label: "Warranty" },
@@ -28,7 +28,7 @@ export function About() {
                 outstanding customer service skills? Don't look any further....
               </p>
               <p>
-                With over 11 years of experience, Diaz's Painters is here to assist you in all areas of your painting
+                With over 2 years of experience, Precision Painting is here to assist you in all areas of your painting
                 project. 💯
               </p>
             </div>

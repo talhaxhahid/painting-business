@@ -4,23 +4,18 @@ import { useScrollAnimation } from "@/components/use-scroll-animation"
 
 const beforeAfterPairs = [
   {
-    before: "/images/1.jpeg",
-    after: "/images/1after.jpeg",
+    before: "/images/1.png",
+    after: "/images/1After.png",
     altBefore: "Blue house before painting - peeling paint with ladders",
     altAfter: "Blue house after painting - fresh navy finish",
   },
   {
-    before: "/images/2.jpeg",
-    after: "/images/2after.jpeg",
+    before: "/images/2.png",
+    after: "/images/2After.png",
     altBefore: "Yellow house before painting - peeling siding with workers",
     altAfter: "Yellow house after painting - clean yellow finish",
   },
-  {
-    before: "/images/3.jpeg",
-    after: "/images/3after.jpeg",
-    altBefore: "Gray house before - work in progress with ladder",
-    altAfter: "White house after painting - completed project",
-  },
+
 ]
 
 export function Gallery() {

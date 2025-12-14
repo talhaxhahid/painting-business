@@ -129,8 +129,8 @@ export function Contact() {
                   </div>
                   <div>
                     <p className="font-semibold text-foreground">Phone</p>
-                    <a href="tel:9783273791" className="text-muted-foreground hover:text-primary transition-colors">
-                      978 327 3791
+                    <a href="tel:7202365669" className="text-muted-foreground hover:text-primary transition-colors">
+                      720 236 5669
                     </a>
                   </div>
                 </div>
@@ -141,10 +141,10 @@ export function Contact() {
                   <div>
                     <p className="font-semibold text-foreground">Email</p>
                     <a
-                      href="mailto:Eribertodiaz978@gmail.com"
+                      href="mailto:Precisionpaintflooringllc@gmail.com"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      Eribertodiaz978@gmail.com
+                      Precisionpaintflooringllc@gmail.com
                     </a>
                   </div>
                 </div>
@@ -154,7 +154,7 @@ export function Contact() {
                   </div>
                   <div>
                     <p className="font-semibold text-foreground">Location</p>
-                    <p className="text-muted-foreground">Lawrence, MA</p>
+                    <p className="text-muted-foreground">Denver Colorado</p>
                   </div>
                 </div>
               </div>
@@ -162,14 +162,14 @@ export function Contact() {
 
             <div className="rounded-2xl overflow-hidden border border-border shadow-lg h-80">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47000.97897789156!2d-71.19098725!3d42.707089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e2e12e6b3e7c5b%3A0x6f5c8f0a5bcd6a5!2sLawrence%2C%20MA!5e0!3m2!1sen!2sus!4v1"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39206.002432144705!2d-104.990251!3d39.7392358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c78da0cca2117%3A0x8c5e060174012875!2sDenver%2C%20CO!5e0!3m2!1sen!2sus!4v1"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Diaz's Painting Location"
+                title="Precision Painting Location"
               />
             </div>
           </div>

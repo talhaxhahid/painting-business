@@ -13,7 +13,7 @@ export function Logo({ className = "", iconColor = "text-[#d4a84b]", textColor =
         <Paintbrush className={`h-8 w-8 ${iconColor} -rotate-45`} />
       </div>
       <div className="flex flex-col leading-none">
-        <span className={`text-2xl md:text-3xl font-bold tracking-tight ${textColor}`}>Diaz's</span>
+        <span className={`text-2xl md:text-3xl font-bold tracking-tight font-[family-name:var(--font-playfair)] ${textColor}`}>Precision</span>
         <span className={`text-xs md:text-sm font-semibold uppercase tracking-[0.2em] ${iconColor}`}>Painting</span>
       </div>
     </div>

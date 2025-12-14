@@ -1,15 +1,16 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
+import { Inter, Playfair_Display } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
-const _inter = Inter({ subsets: ["latin"] })
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
+const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" })
 
 export const metadata: Metadata = {
-  title: "Diaz's Painting | Professional Interior & Exterior Painting Services",
+  title: "Precision Painting | Professional Interior & Exterior Painting Services",
   description:
-    "Transform your home or business with Diaz's Painting. Expert interior and exterior painting services for domestic and commercial properties. Quality craftsmanship guaranteed.",
+    "Transform your home or business with Precision Painting. Expert interior and exterior painting services for domestic and commercial properties. Quality craftsmanship guaranteed.",
     generator: 'v0.app'
 }
 
@@ -20,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`font-sans antialiased`}>
+      <body className={`font-sans antialiased ${inter.variable} ${playfair.variable}`}>
         {children}
         <Analytics />
       </body>

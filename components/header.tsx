@@ -17,7 +17,7 @@ export function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50">
       <div className="bg-primary text-primary-foreground py-2 text-center text-sm font-medium">
-        Professional Painting Services in Lawrence, MA - Call for a Free Quote!
+        Professional Painting Services in Denver, CO - Call for a Free Quote!
       </div>
 
       <div className="bg-[#1a2744]">
@@ -40,13 +40,13 @@ export function Header() {
             </nav>
 
             <a
-              href="tel:9783273791"
+              href="tel:7202365669"
               className="flex flex-col items-center justify-center px-8 bg-gradient-to-b from-[#e8b84a] to-[#c49a3d] hover:from-[#f0c45a] hover:to-[#d4a84b] transition-all -my-0 ml-4"
             >
               <span className="text-[#1a2744] text-xs font-bold uppercase tracking-wider">Free Estimates</span>
               <span className="text-[#1a2744] text-xl font-bold flex items-center gap-2">
                 <Phone className="h-5 w-5" />
-                978 327 3791
+                720 236 5669
               </span>
             </a>
           </div>
@@ -59,7 +59,7 @@ export function Header() {
 
               <div className="flex items-center gap-2">
                 <a
-                  href="tel:9783273791"
+                  href="tel:7202365669"
                   className="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-b from-[#e8b84a] to-[#c49a3d]"
                   aria-label="Call us"
                 >
